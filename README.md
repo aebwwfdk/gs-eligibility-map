@@ -32,17 +32,6 @@ It works in any modern browser on desktop or phone. An internet connection is ne
 - **Planting shortlist.** The shortlist has its own polygons and is not linked to individual plots. Photos are attached to the eligibility plots only.
 - **Coded values.** Survey codes such as `antr_threats` are shown as readable labels.
 
-## Good to know
-
-- The map is a snapshot. The date of the last export is shown at the bottom of the control panel.
-- The site is public. Anyone with the link can view the map, and the plot data and photos can be downloaded from this repository.
-
-## Updating the map
-
-1. In the ArcGIS Pro project, run the map build script. It writes `index.html` and the `photos` and `thumbs` folders.
-2. In the repository folder, delete the old `photos` and `thumbs` folders, then copy in the new `index.html`, `photos` and `thumbs`.
-3. In GitHub Desktop, commit the changes and select **Push origin**. The site refreshes a minute or two later at the same link.
-
 ## Credits
 
 Basemaps: Esri World Imagery, OpenStreetMap contributors, and CARTO. The map is built with [Leaflet](https://leafletjs.com).
